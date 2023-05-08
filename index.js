@@ -21,8 +21,8 @@ const client = new Client({
   ],
   presence: {
     activities: [{
-      name: "T.F.A is cool!",
-      type: 0
+      name: "my slaves work",
+      type: 3
     }],
     status: 'dnd'
   }
@@ -32,7 +32,7 @@ const client = new Client({
 require('http').createServer((req, res) => res.end('Ready.')).listen(3000);
 
 // Getting the bot token:
-const AuthenticationToken = process.env.TOKEN || config.Client.TOKEN;
+const AuthenticationToken = process.env.TOKEN;
 if (!AuthenticationToken) {
   console.warn("[CRASH] Authentication Token for Discord bot is required! Use Envrionment Secrets or config.js.".red)
   return process.exit();

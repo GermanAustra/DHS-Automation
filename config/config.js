@@ -1,9 +1,9 @@
 module.exports = {
 
-  Prefix: "?", // YOUR BOT PREFIX.
+  Prefix: "dhs!", // YOUR BOT PREFIX.
 
   Users: {
-    OWNERS: ["849413565487382578", "554029264492691476"] // THE BOT OWNERS ID.
+    OWNERS: ["481719554595356673", "656933342616354827", "400773345404125184"] // THE BOT OWNERS ID.
   },
 
   Handlers: {
@@ -12,7 +12,7 @@ module.exports = {
 
   Client: {
     TOKEN: "", // YOUR BOT TOKEN. (USE THIS ONLY IN VSCODE)
-    ID: "" // YOUR BOT ID.
+    ID: "1105267162899304578" // YOUR BOT ID.
   }
 
 }
